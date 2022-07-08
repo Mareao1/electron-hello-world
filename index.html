@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>El formulari de l'Hèctor</title>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+  </head>
+  <body>
+
+    <!-- com modificar tamany lletra -->
+
+    <h1 style="font-size:60px">Inscripció a la república de casa teva </h1>
+
+    <!-- Provant amb un Bookmark (té pinta a ser com un menú intern)-->
+    <h2> <a href="#C2">El temps d'avui</a></h2>
+
+    <h3> 3r títol </h3>
+    <h4> 4t títol </h4>
+    <h5> 5è títol </h5>
+    <h6> 6è títol </h6>
+    <hr>
+
+    <!-- això encara s'ha d'explorar-->
+
+    <h1>Chromium <script>document.write(process.versions.chrome)</script>,</h1>
+    <br> Electron <script>document.write(process.versions.electron)</script>.
+    <br> Hola que tal: <script>document.write("hola que ase")</script>
+    <br><br><br>
+    <hr>
+
+    <!-- Aquí comença un formulari -->  
+
+    <br> A continuació trobaràs un formulari chachi piruli on inscriure't <script>document.write(process.versions.node)</script>
+    <br><br><br>
+       
+    <form action="/action_page.php">
+        <label for="fname">Per començar, ens podries dir el teu nom?</label><br>
+        <input type="text" id="fname" name="fname" value="Nom"><br>
+        <label for="lname">I els teus cognoms?</label><br>
+        <input type="text" id="lname" name="lname" value="Cognoms"><br><br>
+        <input type="submit" value="Enviar"><br><br>
+
+    <!-- no sé com afegir <a href="mailto:ham_caldes@hotmail.com"> al botó d'enviar mail</a> -->
+
+    <input type="submit" value="Enviar mail"><br><br>
+
+    <!-- Botons que envien a una web en una nova finestra -->
+    
+    <button onclick="https://esglesiajove.barcelona/">EJB web</button><br>
+    <p>Falta codi JavaScript</p>
+
+    <a href="https://esglesiajove.barcelona/" target="_blank">
+      <input type="submit" value="web EJB">
+    </a><br><br>
+    </form> 
+
+    <!-- insertar una imatge -->
+
+    <img src="images/noia.jpg" alt="Noia" width="120" height="120"><br>
+
+    <p>Imatge amb el tag "style" més link a la foto original</p>
+
+    <a href="https://img.freepik.com/vector-gratis/chica-timida-personaje_1450-155.jpg?w=360">
+      <img src="images/noia.jpg" alt="Noia" style="width:140px;height:140px;"></a><br>
+
+    <p></p>La mateixa imatge agafada des de la web </p>
+
+    <img src="https://img.freepik.com/foto-gratis/mujer-hermosa-joven-mirando-camara-chica-moda-verano-casual-camiseta-blanca-pantalones-cortos-hembra-positiva-muestra-emociones-faciales-modelo-divertido-aislado-amarillo_158538-15796.jpg?w=2000"
+    alt="Noia" width="160" height="160">
+
+    <!-- Títol linkejat amb el títol de dalt -->
+    <h2 id="C2">El temps d'avui</h2>
+
+    
+  </body>
+</html>
